@@ -1,0 +1,44 @@
+/* Cabeçalho */
+#cabecalho p{
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+.items{
+    gap: 30px;
+}
+
+/* Produtos */
+#principal{
+    height: 160vh;
+}
+
+#conteiner-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Lojas */
+
+#conteiner-lojas{
+    gap: 40px;
+    padding: 20px;
+}
+
+/* sobre nós */
+#sobre{
+    height: 80vh;
+}
+
+#conteiner-sobre{
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 90%;
+    padding: 0px 10px;
+}
+
+.mvv p{
+    font-size: 14px;
+}
