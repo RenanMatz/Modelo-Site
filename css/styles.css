@@ -153,8 +153,8 @@ body{
 }
 
 #lojas img{
-  width: 200px;
-  height: 200px;
+  width: 21%;
+  height: 30vh;
   background-color: white;
 }
 
@@ -169,7 +169,7 @@ body{
 #conteiner-sobre{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 4vh;
   width: 95%;
   margin: auto;
 }
