@@ -193,3 +193,10 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 400px){
+  /* lojas */
+  #conteiner-lojas{
+    gap: 20px;
+  }
+}
