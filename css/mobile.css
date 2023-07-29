@@ -21,19 +21,24 @@
     padding: 10px;
 }
 
-.p1{
+.produtos{
     width: 300px;
 }
 
 /* Lojas */
-#lojas img{
-    width: 150px;
-    height: 150px;
+#lojas h2{
+    padding-top: 4vh;
 }
 
 #conteiner-lojas{
-    gap: 40px;
-    padding: 20px;
+    align-items: center;
+    padding: 0 0 15vh 0;
+    gap: 10vw;
+}
+
+#lojas img{
+    width: 150px;
+    height: 150px;
 }
 
 /* sobre nós */
