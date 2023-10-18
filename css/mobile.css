@@ -5,26 +5,35 @@
 
 /* Barra de navegação */
 .items{
-    gap: 30px;
+    gap: 18px
 }
 
 /* Produtos */
 #principal{
-    height: 200vh;
+    height: 170vh;
     flex-direction: column;
     padding: 4vh 0;
+    gap: 3vh;
 }
 
 #productCard{
-    width: 60vw;
+    width: 70vw;
     height: 60vh;
-    padding: 3% 0;
+    padding: 4% 0;
 }
 
 /* Lojas */
+#lojas{
+    height: 45vh;
+}
+
+#lojas h2{
+    padding: 5% 0 1%;
+}
+
 #lojas img{
     width: 35vw;
-    height: 33vh;
+    height: 20vh;
 }
 
 /* sobre nós */
