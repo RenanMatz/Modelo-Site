@@ -137,18 +137,18 @@ body{
   font-size: 2rem;
 }
 
+#lojas img{
+  width: 25%;
+  height: 90%;
+  background-color: white;
+}
+
 #conteinerLojas{
   width: 90%;
   height: 70%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-#lojas img{
-  width: 25%;
-  height: 90%;
-  background-color: white;
 }
 
 /* Sobre nós */
@@ -185,4 +185,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 900px){
+  
 }
